@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8001/api/v1';
+const API_BASE_URL = 'https://wastewise-ai-backend.onrender.com/api/v1';
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
@@ -10,7 +10,7 @@ export const api = axios.create({
 });
 
 export const getHealth = async () => {
-  const res = await axios.get('http://localhost:8001/');
+  const res = await axios.get('https://wastewise-ai-backend.onrender.com/');
   return res.data;
 };
 

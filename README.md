@@ -263,7 +263,7 @@ You should see output like this:
 INFO:     Uvicorn running on http://0.0.0.0:8001
 ```
 
-> ✅ The backend is now running at: **http://localhost:8001**
+> ✅ The backend is now running at: **https://wastewise-ai-backend.onrender.com**
 
 ---
 
@@ -317,13 +317,13 @@ Once the website is open, here's what you can do on each page:
 ## 🔌 API Endpoints (for developers)
 
 The backend exposes these API routes. You can test them directly at:
-**http://localhost:8001/docs** (interactive Swagger UI — no extra tools needed!)
+**https://wastewise-ai-backend.onrender.com/docs** (interactive Swagger UI — no extra tools needed!)
 
 ### `GET /`
 Health check — confirms the server is running.
 
 **Response:**
-```json
+```jsonhttps:
 {
   "status": "online",
   "service": "WasteWise AI Backend",
